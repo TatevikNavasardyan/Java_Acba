@@ -1,4 +1,4 @@
-package org.example.Homework_4;
+package org.example.Homework_4_Recursion;
 
 import java.util.Scanner;
 
