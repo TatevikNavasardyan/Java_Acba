@@ -2,13 +2,13 @@ package org.example.Homework_4_Recursion;
 
 import java.util.Scanner;
 
-public class NumberDigitsSum {
+public class NumbersDigitsSum {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number ");
         int number = sc.nextInt();
-        System.out.println(number);
-        System.out.println(sumOfDigits(number));
+        sc.close();
+        System.out.println("The sum of number's digits" + sumOfDigits(number));
     }
 
     public static int sumOfDigits(int number) {
