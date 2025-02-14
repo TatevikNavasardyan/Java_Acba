@@ -15,7 +15,7 @@ public class Main {
             System.out.println("TicketId = " + ticket.getTicketId());
             System.out.println("Ticket movie title = " + ticket.getMovieTitle());
             System.out.println("Ticket price = " + ticket.calculateFinalPrice());
-            System.out.println("*******" );
+            System.out.println("*******");
         }
 
 
